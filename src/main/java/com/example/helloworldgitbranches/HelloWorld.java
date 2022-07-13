@@ -20,7 +20,7 @@ public class HelloWorld {
 
     @GetMapping("/it")
     public String sayHelloWorldIt(){
-        return "Hallo Wereld";
+        return "Ciao mondo!";
     }
 
 }
