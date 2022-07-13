@@ -9,7 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorld {
 
     @GetMapping("/en")
-    public String sayHelloWorld(){
+    public String sayHelloWorldEn(){
         return "Hello World!";
+    }
+
+    @GetMapping("/de")
+    public String sayHelloWorldDe(){
+        return "Hallo Welt!";
     }
 }
