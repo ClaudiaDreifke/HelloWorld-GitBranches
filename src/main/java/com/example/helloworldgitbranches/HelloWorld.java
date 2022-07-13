@@ -17,4 +17,10 @@ public class HelloWorld {
     public String sayHelloWorldDe(){
         return "Hallo Welt!";
     }
+
+    @GetMapping("/it")
+    public String sayHelloWorldIt(){
+        return "Hallo Wereld";
+    }
+
 }
