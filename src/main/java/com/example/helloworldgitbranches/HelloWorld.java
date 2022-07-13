@@ -23,4 +23,9 @@ public class HelloWorld {
         return "Ciao mondo!";
     }
 
+    @GetMapping("/nl")
+    public String sayHelloWorldNl(){
+        return "Hallo wereld!";
+    }
+
 }
